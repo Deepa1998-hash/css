@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+<style>
+  div{
+    border: 6px solid black;
+    margin: 50px 50px 50px 50 px;
+    background-color: white;
+    padding: 50px 50px 50px 50px;
+     }
+  .button5 {border-radius: 50%;
+    float: right;}
+  .button4 {border-radius: 50%;
+    float: right;}
+  .button3 {border-radius: 50%;
+    background-color: skyblue;
+    float: right;}
+  .button2 {border-radius: 50%;
+    float: right;}
+  .button1 {border-radius: 50%;
+    float: right;}
+  
+.previous {
+       float: right;
+       background-color: whitesmoke;
+       color: black;
+          }
+.next {
+       float: right;
+       background-color: whitesmoke;
+       color: black;
+      }
+p {
+  display: inline-block;
+  }
+.search-container {
+               float: right; 
+                  }
+table {
+      border-collapse: collapse;
+      }
+table, td, th {
+         border: 1px solid black;
+              }
+.material-icons{  
+                color:red;  
+                font-size:20px;  
+                margin:10px; 
+               }
+.nav1{
+     color:lightskyblue;  
+    font-size:20px;  
+    margin:10px;
+     }
+.nav2{
+    color: darkgray;
+    font-size: 20px;
+    margin: 10px;
+     }
+.nav3{ 
+    color:black;
+    font-size: 15px;
+    margin: 10px;
+     }
+.nav4{
+  color: yellow;
+  font-size: 20px;
+  margin: 10px;
+     }
+</style>
+</head>
+  <body>
+    <div>
+      <p>show</p>
+        <span style=" color:black;
+         font-size: 15px;
+         margin: 10px;
+         border: 1px solid black;">
+        <p>5</p>
+        <i class="fa fa-caret-down nav5"></i>
+        </span>
+      <p>entries</p>
+      <p style="font-size: xx-large;">Customer <b>Details</b></p>
+       <span class="search-container">
+        <form id="form"> 
+         <input type="text" placeholder="Search.." name="search">
+        </form>
+       </span>
+<table>
+    <tr>
+       <th>#</th>
+       <th>Name    
+       <i class="fa fa-caret-up nav3"></i>
+       <i class="fa fa-caret-down nav3"></i></th>
+       <th>Address</th>
+       <th>City
+       <i class="fa fa-caret-up nav3"></i>
+       <i class="fa fa-caret-down nav3"></i></th>
+       <th>Pincode</th>
+       <th>Country    
+       <i class="fa fa-caret-up nav3"></i>
+       <i class="fa fa-caret-down nav3"></i></th>
+       <th>Actions</th>
+   </tr>
+   <tr>
+       <td>1</td>
+       <td>Thomas Hardy</td>
+       <td>89 Chiaroscuro Rd</td>
+       <td>Portland</td>
+       <td>97219</td>
+       <td>USA</td>
+      <td>
+       <i class="fa fa-eye nav1"></i>
+       <i class="fa fa-pencil nav4"></i> 
+       <i class="material-icons">delete</i>
+      </td>
+   </tr>
+   <tr>
+       <th>2</th>
+       <td>Maria Anders</td>
+       <td>Obere str,57</td>
+       <td>berlin</td>
+       <td>12209</td>
+       <td>germany</td>
+      <td>
+       <i class="fa fa-eye nav1"></i>
+       <i class="fa fa-pencil nav4"></i> 
+       <i class="material-icons">delete</i>
+      </td> 
+   </tr>
+   <tr>
+       <td>3</td>
+       <td>eran wilson</td>
+       <td>c/araquil.67</td>
+       <td>madrid</td>
+       <td>28023</td>
+       <td>spain</td>
+      <td>
+        <i class="fa fa-eye nav1"></i>
+        <i class="fa fa-pencil nav4"></i> 
+        <i class="material-icons">delete</i>
+      </td>
+   </tr>
+  <tr>
+      <td>4</td>
+      <td>dominique perrier</td>
+      <td>25,rue, lauriton</td>
+      <td>paris</td>
+      <td>75016</td>
+      <td>france</td>
+     <td>
+      <i class="fa fa-eye nav1"></i>
+      <i class="fa fa-pencil nav4"></i> 
+      <i class="material-icons">delete</i> 
+     </td>
+  </tr>
+  <tr>
+      <td>5</td>
+      <td>martin blank</td>
+      <td>via monta blanco 34</td>
+      <td>turin</td>
+      <td>10100</td>
+      <td>italy</td>
+     <td>
+       <i class="fa fa-eye nav1"></i>
+       <i class="fa fa-pencil nav4"></i> 
+       <i class="material-icons">delete</i>
+     </td>
+  </tr>
+</table>
+      <p>show 5 out of 25 entries </p>
+      <a href="#" class="next">next</a>
+        <button class="button button5">5</button>
+        <button class="button button4">4</button>
+        <button class="button button3">3</button>
+        <button class="button button2">2</button>
+        <button class="button button1">1</button>
+      <a href="#" class="previous">previous</a>
+    </div>
+  </body>
+</html>
